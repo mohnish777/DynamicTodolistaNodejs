@@ -18,7 +18,7 @@ const workItems = [];
 
 async function main() {
 
-  await mongoose.connect('mongodb+srv://admin-mohnish:Test1234@cluster0.vcxd5.mongodb.net/todolistDB');
+  await mongoose.connect('<connect it with your database>');
 
   const itemsSchema = new mongoose.Schema({
     name: String
